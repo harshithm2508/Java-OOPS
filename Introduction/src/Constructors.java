@@ -5,7 +5,7 @@ public class Constructors {
         System.out.println(lambo.engine);
         System.out.println(lambo.seats);
         System.out.println(lambo.wheels);
-
+        System.out.println();
 
         Car mclaren = new Car(4,2,"McLaren","M840T");
         System.out.println(mclaren.wheels);
@@ -13,9 +13,16 @@ public class Constructors {
         System.out.println(mclaren.brand);
         System.out.println(mclaren.engine);
         mclaren.description();
+        System.out.println();
 
         mclaren.changeName();
         mclaren.whoAreYou();
+        System.out.println();
+
+
+        CallingFromConstructor call = new CallingFromConstructor();
+        System.out.println(call.date);
+        System.out.println(call.day);
     }
 }
 
@@ -54,5 +61,24 @@ class Car{
 
     void description(){
         System.out.println("I am "+this.brand+" with "+this.wheels+" wheels and "+this.seats+" seats. I have a powerful "+this.engine+" engine.");
+    }
+}
+
+
+//  Calling a constructor from another constructor.
+class CallingFromConstructor{
+    int date;
+    String day;
+
+
+    //  Whenever you call this default constructor it will automatically call the constructor
+    //  that takes date and day as parametes.
+    CallingFromConstructor(){
+        this(25,"Monday");
+    }
+
+    CallingFromConstructor(int date, String day){
+        this.date = date;
+        this.day = day;
     }
 }
