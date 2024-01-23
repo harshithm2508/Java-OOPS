@@ -13,6 +13,9 @@ public class Constructors {
         System.out.println(mclaren.brand);
         System.out.println(mclaren.engine);
         mclaren.description();
+
+        mclaren.changeName();
+        mclaren.whoAreYou();
     }
 }
 
@@ -38,6 +41,15 @@ class Car{
         this.seats = seats;
         this.brand = brand;
         this.engine = engine;
+    }
+
+
+    //  Below two functions(changeName, whoAreYou) demonstrate what if we don't use 'this' keyword for instant variables.
+    void changeName(){
+        brand = "Roll is Royis";
+    }
+    void whoAreYou(){
+        System.out.println("I am "+brand);
     }
 
     void description(){
