@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Introduction/Introduction.iml" filepath="$PROJECT_DIR$/Introduction/Introduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPS.iml" filepath="$PROJECT_DIR$/OOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Packages/Packages.iml" filepath="$PROJECT_DIR$/Packages/Packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/static/Static.iml" filepath="$PROJECT_DIR$/static/Static.iml" />
     </modules>
   </component>
 </project>
