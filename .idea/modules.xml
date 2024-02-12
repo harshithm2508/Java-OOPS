@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Abstract/Abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccessModifiers/AccessModifiers.iml" filepath="$PROJECT_DIR$/AccessModifiers/AccessModifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />

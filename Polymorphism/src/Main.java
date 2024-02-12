@@ -21,4 +21,10 @@ public class Main {
         square1.area();
 
     }
+
+    public static class Interfaces {
+        public static void main(String[] args) {
+
+        }
+    }
 }
